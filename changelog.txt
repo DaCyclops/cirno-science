@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 12. 01. 2026
+  Bugfix:
+    - Disabled ".icon to .icons" conversion code, as it appears to conflict with other mods.
+    - Added logic to handle both ".icons" and ".icon" due to above.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 10. 01. 2026
+  Graphics:
+    - Fixed Gray Cirno having a gray bow. 
+    - Made Light-Blue Cirno more Light-Blue, because it was still not as close as I wanted.
+  Feature:
+    - Re-wrote the mod logic to allow for a more dynamic system.
+      This allows multiple themes to be used, with different icons and pack names.
+    - Added Mod Setting to adjust the theme used.
+      Includes 3 themes - No Changes, All Cirnos (Default), and Blue Cirnos (only blue packs are Cirno)
+  Locale:
+    - As part of re-write, adjusted Themes to apply to Locales as well.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 02. 01. 2026
+  Locale:
+    - Adjusted names of "science pack" to "Fumo Scientist".
+      Why did I pick that? Because like an hour of discussion about the name FINALLY landed on that. Thanks Chat.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 02. 01. 2026
+  Graphics:
+    - Adjusted base-game colours, to closer match the packs.
+    - Added Space Age packs.
+  Info:
+    - Added Changelog
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 31. 12. 2025
+  Compatibility:
+    - Initial Version for Factorio 2.0
+
