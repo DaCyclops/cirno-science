@@ -1,6 +1,9 @@
 -- Load defined Image Sets
 -- For now, this is always all-cirno
 local settouse = settings.startup["cirnoscience-theme-selection"].value
+if (settouse == "fumobyhair") then
+  require("graphics.fumobyhair")
+end
 if (settouse == "allcirno") then
   require("graphics.allcirno")
 end

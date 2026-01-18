@@ -5,7 +5,7 @@ data:extend({
     name = "cirnoscience-theme-selection",
     setting_type = "startup",
     default_value = "allcirno",
-    allowed_values = {"nochange","allcirno", "bluecirno"},
+    allowed_values = {"nochange","fumobyhair","allcirno", "bluecirno"},
     order = "cirnoscience-a"
     }
     
