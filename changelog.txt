@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+Date: 20. 01. 2026
+  Graphics:
+    - Added "Main Character Syndrome" theme.
+      Playable Characters from Touhou 6-20.
+    - Added "[6] Scarlet Devils" theme.
+      Characters from Touhou 6: Embodiment of Scarlet Devil.
+  Feature:
+    - Moved code to data-updates stage, to hopefully avoid needing dependencies for additional mods.
+    - Adjusted settings loading to be dynamic, to reduce changes required on adding new options. 
+  Bugfix:
+    - Fixed broken Locale for Agricultural Science Packs
+    - Slightly renamed/adjusted Theme options.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.5
 Date: 18. 01. 2026
   Graphics:

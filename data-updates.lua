@@ -1,17 +1,9 @@
 -- Load defined Image Sets
--- For now, this is always all-cirno
 local settouse = settings.startup["cirnoscience-theme-selection"].value
-if (settouse == "fumobyhair") then
-  require("graphics.fumobyhair")
-end
-if (settouse == "allcirno") then
-  require("graphics.allcirno")
-end
-if (settouse == "bluecirno") then
-  require("graphics.bluecirno")
-end
--- and default option, just in case
-if (settouse == "nochange" or themeset == nil) then
+-- dynamically load
+local themepath = "graphics."..settouse
+local success, module = pcall(require, themepath)
+if (themeset == nil) then
   require("graphics.nochange")
 end
 
